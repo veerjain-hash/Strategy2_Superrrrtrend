@@ -9,6 +9,7 @@ Supertrend:12,3
 Instrument: NIFTYBANK
 Expiry: Weekly
 Timeframe: 15m
+Capital requiremnets: 250k
 
 Set1
 Conditions:
@@ -91,4 +92,12 @@ and
 
 if the closing of previous candle is above supertrend of defined parameters above.
 
+
+Universal exits:
+Time >= 14:55
+
+or
+
+Trailing sl activating at 5000 which works as,
+PNL <= Max Profit - 5000
 
